@@ -1,0 +1,16 @@
+/*
+
+* main.c
+ *
+ *  Created on: Aug 12, 2024
+ *      Author: Adnan
+ */
+#include <stdio.h>
+
+int main()
+{
+	printf("Hello");
+	return 0;
+}
+
+

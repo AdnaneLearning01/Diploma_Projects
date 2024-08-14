@@ -1,0 +1,41 @@
+
+/*
+
+ * main.c
+ *
+ *  Created on: Aug 13, 2024
+ *      Author: Adnan
+ */
+
+/* C Programm to Check Whether a Number is Positive or Negative */
+
+#include <stdio.h>
+
+float NumberOne = 0 ;
+
+
+int main()
+{
+	printf("Enter a Number :");
+	fflush(stdin); fflush(stdout);
+	scanf("%f", &NumberOne);
+
+	if(NumberOne > 0)
+	{
+		printf("%0.2f is Positive.",NumberOne);
+	}
+	else if(NumberOne < 0)
+	{
+		printf("%0.2f is Negative.",NumberOne);
+	}
+	else
+	{
+		printf("You Entered Zero");
+	}
+
+
+	return 0;
+
+}
+
+

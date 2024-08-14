@@ -1,0 +1,22 @@
+/*
+
+ * main.c
+ *
+ *  Created on: Aug 13, 2024
+ *      Author: Adnan
+ */
+
+/* Write C Program to Check Whether a Number is Even or Odd */
+
+#include <stdio.h>
+
+unsigned int NumberOne = 0;
+int main()
+{
+	printf("Enter an Integer you want to check :");
+	fflush(stdin); fflush(stdout);
+	scanf("%d", &NumberOne);
+
+	return 0;
+}
+

@@ -1,0 +1,51 @@
+/*
+
+ * main.c
+ *
+ *  Created on: Aug 13, 2024
+ *      Author: Adnan
+ */
+
+/*
+
+ * main.c
+ *
+ *  Created on: Aug 13, 2024
+ *      Author: Adnan
+ */
+/* C Program to Calculate Factorial of Number */
+#include <stdio.h>
+
+int UserInput = 0;
+int Factorial = 0;
+int i = 0;
+
+
+int main()
+{
+	printf("Enter a Integer :");
+	fflush(stdin); fflush(stdout);
+	scanf("%d", &UserInput);
+
+	if(UserInput < 0)
+	{
+		printf("Error!! Factorial of Negative Number do not Exist");
+	}
+	else if (UserInput == 0)
+	{
+		Factorial = 1;
+	}
+	else
+	{
+		for(i = 1; i <= UserInput; i++)
+		{
+				Factorial *= i;
+		}
+
+		printf("Factorial = %d",Factorial);
+	}
+
+	return 0;
+
+}
+

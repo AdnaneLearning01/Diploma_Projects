@@ -1,0 +1,52 @@
+/*
+
+ * main.c
+ *
+ *  Created on: Aug 13, 2024
+ *      Author: Adnan
+ */
+
+/*
+
+ * main.c
+ *
+ *  Created on: Aug 13, 2024
+ *      Author: Adnan
+ */
+
+/*
+
+ * main.c
+ *
+ *  Created on: Aug 13, 2024
+ *      Author: Adnan
+ */
+
+/* Write C Programm to Check whether a Character is an Alphabet or not */
+
+#include <stdio.h>
+
+char character;
+
+
+int main()
+{
+	printf("Enter a Character :");
+	fflush(stdin); fflush(stdout);
+	scanf("%c", &character);
+
+	if((character >= 'a' && haracter <= 'z') || character >= 'A' && haracter <= 'Z'))
+	{
+		printf("%c is a Character.",character);
+	}
+	else
+	{
+		printf("%0.2f is Negative.",NumberOne);
+	}
+
+	return 0;
+
+}
+
+
+

@@ -1,0 +1,45 @@
+/*
+
+ * main.c
+ *
+ *  Created on: Aug 13, 2024
+ *      Author: Adnan
+ */
+
+/* Write C Programm to Find the Largest Number Among Three Numbers */
+
+#include <stdio.h>
+
+float NumberOne = 0 ;
+float NumberTwo = 0 ;
+float NumberThree = 0 ;
+int main()
+{
+	printf("Enter Three Numbers :");
+	fflush(stdin); fflush(stdout);
+	scanf("%f %f %f", &NumberOne, &NumberTwo, &NumberThree);
+
+	if(NumberOne > NumberTwo)
+	{
+		if(NumberOne > NumberThree)
+		{
+			printf("Largest Number = %0.2f",NumberOne);
+		}
+		else
+		{
+			printf("Largest Number = %0.2f",NumberThree);
+		}
+	}
+	else if(NumberOne < NumberTwo)
+	{
+		if(NumberTwo > NumberThree)
+		{
+			printf("Largest Number = %0.2f",NumberTwo);
+		}
+		else
+		{
+			printf("Largest Number = %0.2f",NumberThree);
+		}
+	}
+
+}

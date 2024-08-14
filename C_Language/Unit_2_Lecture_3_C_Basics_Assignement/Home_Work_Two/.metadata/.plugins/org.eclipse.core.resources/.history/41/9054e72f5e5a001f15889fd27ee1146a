@@ -1,0 +1,56 @@
+/*
+
+ * main.c
+ *
+ *  Created on: Aug 13, 2024
+ *      Author: Adnan
+ */
+
+
+/* C Program to Make a Simple Calculator to Add ,Substract,
+   Multiply or Divide Using switch ....case */
+#include <stdio.h>
+
+float NumberOne = 0;
+float NumberTwo = 0;
+float Result = 0;
+char Operator;
+
+
+int main()
+{
+	printf("Enter operator either + or - or * or / : ");
+	fflush(stdin); fflush(stdout);
+	scanf("%c", &Operator);
+
+	printf("Enter two operands : ");
+	fflush(stdin); fflush(stdout);
+	scanf("%f %f", &NumberOne, &NumberTwo);
+
+	switch(Operator)
+	{
+	case '+' :
+		Result = NumberOne + NumberTwo;
+		break;
+	case '-' :
+			Result = NumberOne - NumberTwo;
+			break;
+	case '*' :
+			Result = NumberOne * NumberTwo;
+			break;
+	case '/' :
+			Result = NumberOne / NumberTwo;
+			break;
+	default :
+		printf("Error!! You Entered Invalid Operators");
+		break;
+	}
+
+	printf("%0.2f %c %0.2f = %0.2f",NumberOne, Operator, NumberTwo, Result);
+
+
+	return 0;
+
+}
+
+
