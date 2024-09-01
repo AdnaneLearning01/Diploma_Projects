@@ -1,0 +1,44 @@
+/*
+
+ * main.c
+ *
+ *  Created on: Aug 26, 2024
+ *      Author: Adnan
+ */
+
+/* C Program to Find Sum of Two Matrix of Order 2*2 */
+
+#include <stdio.h>
+
+char i = 0;
+char j = 0;
+int Matrix_1[2][2];
+int Matrix_2[2][2];
+int sum[2][2] = 0;
+
+int main()
+{
+	printf("Enter the element of the 1st Matrix : /n");
+	for (i = 0; i <2; i++)
+	{
+		for (j = 0; j < 2; j++)
+		{
+			printf("Enter a%d%d : ",i,j);
+			scanf("%d", &Matrix_1[i][j]);
+		}
+	}
+
+	for (i = 0; i < 2; i++)
+	{
+		for(j = 0; j < 2; j++)
+		{
+			printf("%d /t", Matrix_1[i][j]);
+		}
+		printf("/n");
+	}
+
+
+	return 0;
+}
+
+

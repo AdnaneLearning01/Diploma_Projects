@@ -1,0 +1,22 @@
+/*
+
+ * main.c
+ *
+ *  Created on: Aug 26, 2024
+ *      Author: Adnan
+ */
+
+#include <stdio.h>
+
+int N = 0;
+float avg = 0;
+
+
+int main()
+{
+	printf("Enter the number of Data : ");
+	fflush(stdin);fflush(stdout);
+
+
+	return 0;
+}
